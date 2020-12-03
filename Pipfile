@@ -9,6 +9,7 @@ verify_ssl = true
 docx = "*"
 ibm-watson = "*"
 python-docx = "*"
+xlwt = "*"
 
 [requires]
 python_version = "3.8"

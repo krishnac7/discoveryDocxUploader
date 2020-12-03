@@ -9,5 +9,5 @@ def getConfig():
         if len(missingData)!=0:
             print("\033[91m [ERROR] Values for the following keys are missing from config \n {0} \033[0m".format(missingData))
             exit(1)
-        print("\033[92m [getConfig] Configs available \n \033[0m")
+        print("\033[92m[getConfig] Configs available \n \033[0m")
         return config

@@ -11,3 +11,4 @@ splitDoc(configs['documentDir'],configs['outputDir'])
 
 print("\n\033[95mDocument Upload started \033[0m")
 uploadDocs(configs)
+print("\n\033[95mJob Complete \033[0m")

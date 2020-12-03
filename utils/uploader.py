@@ -13,8 +13,9 @@ def uploadDocs(configs):
     files=os.listdir(configs["outputDir"])
 
     for file in files:
-        print("\n\033[92m[uploadDoc] Uploading {}{}\033[0m".format(configs["outputDir"],file))
+        
         if file.split('.')[1]=='docx':
+            print("\n\033[92m[uploadDoc] Uploading {}{}\033[0m".format(configs["outputDir"],file))
             with open(os.path.join(configs["outputDir"], file),'rb') as fileinfo:
                 add_doc = discovery.add_document(
                     configs["envId"], 
