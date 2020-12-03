@@ -2,7 +2,7 @@
   "documentDir": "./Documents",
   "outputDir": "./output/",
   "apiKey": "",
-  "envId": ""
+  "envId": "",
   "collectionId":"",
   "serviceUrl": ""
 }
