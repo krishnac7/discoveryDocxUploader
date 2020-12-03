@@ -2,6 +2,6 @@
   "documentDir": "./Documents",
   "outputDir": "./output/",
   "apiKey": "",
-  "envId": "": "",
+  "envId": "",
   "serviceUrl": ""
 }
