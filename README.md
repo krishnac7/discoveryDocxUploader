@@ -16,7 +16,7 @@ cd discoveryDocxUploader-master
 pipenv install
 ```
 
-- Place the document files (".docx) in the /Documents Folder
+- Place the document files (".docx") in the /Documents Folder
 - Run main.py
 
 ```
