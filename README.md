@@ -2,7 +2,13 @@
 
 This script helps you to split word documents based on sections and then upload them to watson discovery
 
-- clone the repo
+- Install pipenv if not present
+
+```
+pip install pipenv
+```
+
+- Clone the repo
 
 ```
 git clone https://github.com/krishnac7/discoveryDocxUploader.git
